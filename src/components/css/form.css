@@ -1,0 +1,31 @@
+.wrapper {
+    position:relative;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: absolute;
+    box-sizing:border-box;
+    top:54%;
+    left:5px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .input {
+    height: 50px;
+    box-sizing:border-box;
+    padding-left: 2.5rem;
+    width: 100%;
+  }
+
+  .input:focus{
+    outline: none;
+  }
+
+  .input,.input::placeholder{
+    font-size: 1.2rem;
+  }
